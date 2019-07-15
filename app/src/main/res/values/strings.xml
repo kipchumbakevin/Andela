@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ALC 4.0</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="profile">My Profile</string>
+    <string name="kevin_kipchumba">Kevin Kipchumba</string>
+    <string name="android">Track: Android</string>
+    <string name="kenya">Country: Kenya</string>
+    <string name="kipchumbakevin28_gmail_com">Email: kipchumbakevin28@gmail.com</string>
+    <string name="phone">Phone number: +254706459189</string>
+    <string name="not_joined">Slack Username: Not joined</string>
+    <string name="info">I am really passionate about programming and software development. I would love to be part of your skilled team of professionals to help me grow and sharpen my skills to suit the local and international market. Thank you.</string>
+</resources>
