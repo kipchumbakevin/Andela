@@ -1,4 +1,4 @@
-#Sun Jul 14 16:47:32 EAT 2019
-base.0=C\:\\Users\\KIPCHU\\AndroidStudioProjects\\Andela\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+#Fri Jul 19 12:32:54 EAT 2019
+base.0=C\:\\Users\\KIPCHU\\AndroidStudioProjects\\Andela\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
 path.0=classes.dex
 renamed.0=classes.dex

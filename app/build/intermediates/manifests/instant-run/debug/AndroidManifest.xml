@@ -28,12 +28,11 @@
         </activity>
         <activity
             android:name="com.andela.andela.AboutALC"
-            android:label="About Us" >
-        </activity>
+            android:label="About Us" />
         <activity
             android:name="com.andela.andela.ProfileActivity"
-            android:label="@string/profile" >
-        </activity>
+            android:label="@string/profile" />
+        <activity android:name="com.andela.andela.Login" />
 
         <meta-data
             android:name="android.support.VERSION"
