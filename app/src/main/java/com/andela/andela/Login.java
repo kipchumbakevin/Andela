@@ -45,5 +45,6 @@ public class Login extends AppCompatActivity {
 
             }
         });
+        setTitle("Login");
     }
 }

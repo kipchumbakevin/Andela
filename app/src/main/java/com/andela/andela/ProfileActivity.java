@@ -11,6 +11,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,6 +28,7 @@ public class ProfileActivity extends AppCompatActivity {
     private static final String IMAGE_DIRECTORY = "image";
     ImageView profile,moreI,photo;
     TextView track, name, country, mail, phone, slack;
+    Button photos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,7 @@ public class ProfileActivity extends AppCompatActivity {
         slack = findViewById(R.id.textSlackName);
         track = findViewById(R.id.textTrack);
         photo = findViewById(R.id.photo);
+        photos = findViewById(R.id.viewPhotos);
         moreI = findViewById(R.id.moreI);
         moreI.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +63,18 @@ public class ProfileActivity extends AppCompatActivity {
 
             }
         });
+        photos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(ProfileActivity.this,PhotosActivity.class);
+                startActivity(i);
+            }
+        });
+        title();
+    }
+
+    private void title() {
+        setTitle(name.getText().toString());
     }
 
     private void showPictureDialog() {

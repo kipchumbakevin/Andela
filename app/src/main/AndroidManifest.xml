@@ -20,11 +20,23 @@
         </activity>
         <activity
             android:name=".AboutALC"
-            android:label="About Us"></activity>
+            android:label="About Us" />
         <activity
             android:name=".ProfileActivity"
-            android:label="@string/profile"></activity>
-        <activity android:name=".Login"></activity>
+            android:label="@string/profile" />
+        <activity android:name=".Login" />
+        <activity android:name=".PhotosActivity" />
+        <activity android:name=".UploadPhotos"></activity>
+        <provider
+            android:authorities="com.andela.andela.fileprovider"
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/files"/>
+
+        </provider>
     </application>
 
 </manifest>
